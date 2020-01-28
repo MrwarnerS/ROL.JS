@@ -12,7 +12,7 @@
     android:paddingBottom="@dimen/activity_vertical_margin">
 
     <TextView
-        android:id="@+id/txttitulo"
+        android:id="@+id/tvtitulo"
         android:layout_width="200dp"
         android:layout_height="70dp"
         android:gravity="center"
@@ -20,21 +20,21 @@
         android:textSize="60dp" />
 
     <TextView
-        android:id="@+id/lbluser"
+        android:id="@+id/tvuser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Usuario: "
         android:textSize="25dp" />
 
     <EditText
-        android:id="@+id/txtuser"
+        android:id="@+id/user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="9"
         android:inputType="textPersonName" />
 
     <TextView
-        android:id="@+id/lblcont"
+        android:id="@+id/tvcont"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Contraseña:"
@@ -52,6 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="7"
+        android:onClick="vistaRegistro"
         android:text="Registrarse" />
 
     <Button
